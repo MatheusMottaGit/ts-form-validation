@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@400;700&display=swap');
+
+
+  @layer base{
+    :root{
+      --required: #ff0000;
+    }
+  }
+
+  body{
+    @apply bg-black;
+    @apply text-slate-200;
+  }
+
+  input{
+    @apply bg-zinc-800;
+    @apply w-96;
+    @apply h-10;
+    @apply rounded-sm;
+    @apply px-6
+  }
